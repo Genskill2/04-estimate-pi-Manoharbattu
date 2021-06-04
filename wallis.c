@@ -25,7 +25,7 @@ int main(void) {
     //printf("wallis called %f %f\n",M_PI,pi) ;
     if (!(fabs(pi - M_PI) > 0.15)) {
       //printf("wallis g %f\n",pi) ;
-  printf("Estimate with just %d iterations is %f which is too accurate.\n", i, pi);
+       printf("Estimate with just %d iterations is %f which is too accurate.\n", i, pi);
           abort();
     }
   }
